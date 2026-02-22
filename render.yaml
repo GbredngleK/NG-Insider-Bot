@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: ng-insider-bot
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
-
-    healthCheckPath: /
